@@ -1,4 +1,4 @@
-@Library('CICD_Sonarqube-NonEP-lib') _
+@Library('CICD_Sonarqube-NonEP-lib@mule') _
 
 pipeline {
     agent any
