@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('ruby') {
             steps {
-                sonarScan()
+                sonarScan("-Dsonar.sources=.")
             }
         }
    
