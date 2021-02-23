@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('ruby') {
             steps {
-                sonarScan("-Dsonar.sources=.")
+                sonarScan("-Dsonar.sources=GettingStarted,YourApp")
             }
         }
    
